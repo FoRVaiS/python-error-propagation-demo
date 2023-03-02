@@ -4,7 +4,7 @@
             "name": "Development Debug",
             "type": "python",
             "request": "launch",
-            "program": "main.py",
+            "program": "src/main.py",
             "console": "internalConsole",
             "justMyCode": true
         }

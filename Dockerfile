@@ -22,4 +22,4 @@ FROM base as source
 COPY --chown=python . .
 
 FROM source as prod
-CMD ["python", "main.py"]
+CMD ["python", "src/main.py"]
