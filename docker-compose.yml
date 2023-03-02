@@ -1,0 +1,10 @@
+services:
+  python-error-propagation-dev-container:
+    build:
+      context: .
+      target: dev
+    image: python-error-propagation-dev-container:dev-container
+    container_name: python-error-propagation-dev-container
+    volumes:
+      - .:/app
+    tty: true

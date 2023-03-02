@@ -1,0 +1,17 @@
+{
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "python-error-propagation-dev-container",
+  "workspaceFolder": "/app",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "github.copilot",
+        "visualstudioexptteam.vscodeintellicode",
+        "ms-azuretools.vscode-docker",
+        "eamodio.gitlens",
+        "ms-python.python"
+      ]
+    }
+  },
+  "postStartCommand": "git config --global --add safe.directory /app"
+}
