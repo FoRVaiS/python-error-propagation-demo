@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "Development Debug",
+            "type": "python",
+            "request": "launch",
+            "program": "main.py",
+            "console": "internalConsole",
+            "justMyCode": true
+        }
+    ]
+}
